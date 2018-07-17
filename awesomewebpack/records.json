@@ -1,0 +1,143 @@
+{
+  "html-webpack-plugin for \"index.html\"": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/webpack/buildin/module.js": 0,
+          "node_modules/webpack/buildin/global.js": 1,
+          "node_modules/lodash/lodash.js": 2,
+          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-webpack-plugin/default_index.ejs": 3
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": [
+          1
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--5-2!src/main.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/url-loader/dist/cjs.js??ref--6!src/logo1.jpg": 0,
+          "node_modules/css-loader/lib/css-base.js": 1,
+          "node_modules/css-loader/lib/url/escape.js": 2,
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--5-2!src/main.css": 3,
+          "node_modules/url-loader/dist/cjs.js??ref--6!src/logo.png": 0
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/purecss/build/pure-min.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 0,
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/purecss/build/pure-min.css": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "node_modules/fbjs/lib/emptyFunction.js": 0,
+      "node_modules/fbjs/lib/emptyObject.js": 1,
+      "node_modules/fbjs/lib/invariant.js": 2,
+      "node_modules/object-assign/index.js": 3,
+      "node_modules/react/index.js": 4,
+      "node_modules/babel-loader/lib/index.js!src/index.js 4b4b4c1451c941840fd598c491cb9636": 5,
+      "node_modules/fbjs/lib/isNode.js": 6,
+      "node_modules/fbjs/lib/isTextNode.js": 7,
+      "node_modules/fbjs/lib/containsNode.js": 8,
+      "node_modules/fbjs/lib/shallowEqual.js": 9,
+      "node_modules/fbjs/lib/getActiveElement.js": 10,
+      "node_modules/fbjs/lib/ExecutionEnvironment.js": 11,
+      "node_modules/react-dom/cjs/react-dom.production.min.js": 12,
+      "node_modules/react-dom/index.js": 13,
+      "node_modules/react/cjs/react.production.min.js": 14,
+      "css node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/purecss/build/pure-min.css 0": 15,
+      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/purecss/build/pure-min.css": 16,
+      "css node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--5-2!src/main.css 0": 17,
+      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--5-2!src/main.css": 18,
+      "node_modules/babel-loader/lib/index.js!src/la.js": 19,
+      "node_modules/happypack/loader.js!src/index.js 517d666440f5490d46a443c62e6b963e": 5,
+      "node_modules/happypack/loader.js!src/la.js": 19
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "19": 19
+    }
+  },
+  "chunks": {
+    "byName": {
+      "manifest": 0,
+      "vendor": 1,
+      "main": 3
+    },
+    "bySource": {
+      "0 node_modules/babel-loader/lib/index.js!src/component.js {\"line\":9,\"column\":6}": 2,
+      "0 node_modules/happypack/loader.js!src/component.js {\"line\":9,\"column\":6}": 4
+    },
+    "usedIds": [
+      0,
+      1,
+      3,
+      4
+    ]
+  }
+}

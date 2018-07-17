@@ -1,0 +1,16 @@
+body {
+    background: pink;
+    background-image: url("./logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .pure-button {
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+  }
+  .aa{
+    position: relative;
+  }
+  .bb{
+    image-orientation: 0deg;
+  }
